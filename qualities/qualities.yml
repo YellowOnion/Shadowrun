@@ -1,0 +1,127 @@
+# positive qualities
+Adept: &Adept
+    name: Adept
+    type: quality
+    cost: 5
+    
+Amdbidextrous: &Amdbidextrous
+    cost: 5
+    name: Amdbidextrous
+    type: quality
+Animal Empathy: &Animal-Empathy
+    cost: 10
+    name: Animal Empathy
+    type: quality
+Aptitude: &Aptitude
+    cost: 10
+    name: Aptitude
+    type: quality
+Astral Chameleon: &Astral-Chameleon
+    cost: 5
+    name: Astral Chameleon
+    type: quality
+Blandness: &Blandness
+    cost: 10
+    name: Blandness
+    type: quality
+Codeslinger: &Codeslinger
+    cost: 10
+    name: Codeslinger
+    type: quality
+Double Jointed: &Double-Jointed
+    cost: 5
+    name: Double Jointed
+    type: quality
+Erased: &Erased
+    cost: [5, 10]
+    name: Erased
+    type: quality
+Exceptional Attribute: &Exceptional-Attribute
+    cost: 20
+    name: Exceptional Attribute
+    type: quality
+First Impression: &First-Impression
+    cost: 5
+    name: First Impression
+    type: quality
+Focused Concentration: &Focused-Concentration
+    cost: [10, 20]
+    name: Focused Concentration
+    type: quality
+Guts: &Guts
+    cost: 5
+    name: Guts
+    type: quality
+High Pain Tolerance: &High-Pain-Tolerance
+    cost: [5, 10, 15]
+    name: High Pain Tolerance
+    type: quality
+Home Ground: &Home-Ground
+    cost: 10
+    name: Home Ground
+    type: quality
+Human Looking: &Human-Looking
+    cost: 5
+    name: Human Looking
+    type: quality
+Lucky: &Lucky
+    cost: 20
+    name: Lucky
+    type: quality
+Magic Resistance: &Magic-Resistance
+    cost: [5, 10, 15, 20]
+    name: Magic Resistance
+    type: quality
+Magician: &Magician
+    cost: 15
+    name: Magician
+    type: quality
+Mentor Spirit: &Mentor-Spirit
+    cost: 5
+    name: Mentor Spirit
+    type: quality
+Murky Link: &Murky-Link
+    cost: 10
+    name: Murky Link
+    type: quality
+Mystic Adept: &Mystic-Adept
+    cost: 10
+    name: Mystic Adept
+    type: quality
+Natural Hardening: &Natural-Hardening
+    cost: 10
+    name: Natural Hardening
+    type: quality
+Natural Immunity: &Natural-Immunity
+    cost: [5, 15]
+    name: Natural Immunity
+    type: quality
+Photographic Memory: &Photographic-Memory
+    cost: 10
+    name: Photographic Memory
+    type: quality
+Quick Healer: &Quick-Healer
+    cost: 10
+    name: Quick Healer
+    type: quality
+Resistance to Pathogens/Toxins: &Resistance-to-Pathogens-and-Toxins
+    cost: [5, 10]
+    name: Resistance to Pathogens/Toxins
+    type: quality
+Spirit Affinity: &Spirit-Affinity
+    cost: 10
+    name: Spirit Affinity
+    type: quality
+Technomancer: &Technomancer
+    cost: 5
+    name: Technomancer
+    type: quality
+Toughness: &Toughness
+    cost: 10
+    name: Toughness
+    type: quality
+Will to Live: &Will-to-Live
+    cost:  [5, 10, 15]
+    name: Will to Live
+    type: quality
+# negative qualities

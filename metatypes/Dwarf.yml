@@ -11,7 +11,7 @@ Dwarf: &Dwarf
     cost: 25
     abilities:
         - *ThermographicVision
-        - [ +2, *dice-for-body-tests-to-resist-pathogens-and-toxins]
+        - [ +2, *Resistance-to-Pathogens-and-Toxins, dice+body+tests ]
     Body:      [2,7,10]
     Agility:   [1,6, 9]
     Reaction:  [1,5, 7]
