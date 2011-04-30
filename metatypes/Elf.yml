@@ -1,0 +1,30 @@
+Elf: &Elf
+    type: metatype
+    name: Elf
+    height: 190 # average height from Core rule book, in cm
+    weight: 80 # weight in kg
+    life span: 700 # in years, I'm not sure about this but yeah could work
+    genus: Homo sapiens nobilis
+    description: >
+        <need non-copyrighted description>        
+
+    cost: 30
+    abilities:
+        - Thermographic Vision
+        - [ +1, reach]
+    Body:      [1,6, 9]
+    Agility:   [2,7,10]
+    Reaction:  [1,6, 9]
+    Strength:  [1,6, 9]
+    Charisma:  [3,8,12]
+    Intuition: [1,6, 9]
+    Logic:     [1,6, 9]
+    Willpower: [1,6, 9]
+    Metavariant:
+        - Cyclops:
+            cost: 45
+            abilities:
+                - Cyclopean Eye
+                - Metagenic Improvement (Strength)
+                - [ +1, reach]
+

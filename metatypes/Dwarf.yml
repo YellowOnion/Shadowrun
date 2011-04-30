@@ -1,0 +1,30 @@
+Dwarf: &Dwarf
+    type: metatype
+    name: Dwarf
+    height: 120 # average height from Core rule book, in cm
+    weight: 54 # weight in kg
+    life span: 101 # in years, I'm not sure about this but yeah could work
+    genus: Homo sapiens pumilionis
+    description: >
+       <need non-copyrighted description> 
+
+    cost: 25
+    abilities:
+        - Thermographic Vision
+        - [ +2, dice for body tests to resist pathogens and toxins]
+    Body:      [2,7,10]
+    Agility:   [1,6, 9]
+    Reaction:  [1,5, 7]
+    Strength:  [3,8,12]
+    Charisma:  [1,6, 9]
+    Intuition: [1,6, 9]
+    Logic:     [1,6, 9]
+    Willpower: [2,7,10]
+    Metavariant:
+        - Cyclops:
+            cost: 45
+            abilities:
+                - Cyclopean Eye
+                - Metagenic Improvement (Strength)
+                - [ +1, reach]
+

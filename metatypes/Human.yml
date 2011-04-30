@@ -1,0 +1,27 @@
+Human: &Human
+    name: Human
+    type: metatype
+    height: 175 # average height from Core rule book, in cm
+    weight: 78 # weight in kg
+    life span: 65 # in years, I'm not sure about this but yeah could work
+    genus: Homo sapiens sapiens
+    description: >
+        <need non-copyrighted description>
+
+    cost: 0
+    abilities:
+        - [ +1, Edge]
+    Body:      [1, 6, 9] # 1/6 (9) from the book
+    Agility:   [1, 6, 9]
+    Reaction:  [1, 6, 9]
+    Strength:  [1, 6, 9]
+    Charisma:  [1, 6, 9]
+    Intuition: [1, 6, 8]
+    Logic:     [1, 6, 9]
+    Willpower: [1, 6, 9]
+    Metavariant:
+        - Nartaki:
+            cost: 25
+            abilities:
+                - Shiva Arms
+                - Striking Skin Pigmentation

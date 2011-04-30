@@ -1,0 +1,51 @@
+Troll: &Troll
+    type: metatype
+    name: Troll
+    height: 250 # average height from Core rule book, in cm
+    weight: 300 # weight in kg
+    life span: 55 # in years, I'm not sure about this but yeah could work
+    genus: Homo sapiens ingentis
+    description: >
+      <same as others>  
+
+    cost: 40
+    abilities:
+        - Thermographic Vision
+        - [ +1, reach]
+        - [ +1, armor]
+    Body:      [5, 10, 15] # from the book
+    Agility:   [1,  5,  7]
+    Reaction:  [1,  6,  9]
+    Strength:  [5, 10, 15]
+    Charisma:  [1,  4,  6]
+    Intuition: [1,  5,  7]
+    Logic:     [1,  5,  7]
+    Willpower: [1,  6,  9]
+    Metavariant:
+        - Cyclops:
+            cost: 45
+            abilities:
+                - Cyclopean Eye
+                - Metagenic Improvement (Strength)
+                - [ +1, reach]
+        - Fomori:
+            cost: 45
+            abilities:
+                - Arcane Arrester
+                - Metagenic Improvement (Body)
+                - Thermographic Vision
+                - [ +1, reach]
+        - Giant:
+            cost: 40
+            abilities:
+                - Dermal Alteration (Bark)
+                - Thermographic Vision
+                - [ +1, reach]
+        - Minotaur:
+            cost: 45
+            abilities:
+                - Goring Horns
+                - Metagenic Improvement (Body)
+                - Thermographic Vision
+                - [ +1, reach]
+

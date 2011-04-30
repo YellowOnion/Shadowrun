@@ -1,0 +1,30 @@
+Ork: &Ork
+    type: metatype
+    name: Ork
+    height: 190 # average height from Core rule book, in cm
+    weight: 128 # weight in kg
+    life span: 45 # in years, I'm not sure about this but yeah could work
+    genus: Homo sapiens robustus
+    description: >
+        <need non-copyrighted description>
+
+    cost: 20
+    abilities:
+        - Thermographic Vision
+        - [ +1, reach]
+    Body:      [4,9,13]
+    Agility:   [1,6, 9]
+    Reaction:  [1,6, 9]
+    Strength:  [3,8,12]
+    Charisma:  [1,5, 7]
+    Intuition: [1,6, 9]
+    Logic:     [1,5, 7]
+    Willpower: [1,6, 9]
+    Metavariant:
+        - Cyclops:
+            cost: 45
+            abilities:
+                - Cyclopean Eye
+                - Metagenic Improvement (Strength)
+                - [ +1, reach]
+
