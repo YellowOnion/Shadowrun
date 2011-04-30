@@ -10,8 +10,8 @@ Dwarf: &Dwarf
 
     cost: 25
     abilities:
-        - Thermographic Vision
-        - [ +2, dice for body tests to resist pathogens and toxins]
+        - *ThermographicVision
+        - [ +2, *dice-for-body-tests-to-resist-pathogens-and-toxins]
     Body:      [2,7,10]
     Agility:   [1,6, 9]
     Reaction:  [1,5, 7]
@@ -21,10 +21,13 @@ Dwarf: &Dwarf
     Logic:     [1,6, 9]
     Willpower: [2,7,10]
     Metavariant:
-        - Cyclops:
-            cost: 45
+        - Gnome: &Gnome
+            type: metavariant
+            metatype: *Dwarf
+            name: Gnome
+            cost: 25
             abilities:
-                - Cyclopean Eye
-                - Metagenic Improvement (Strength)
-                - [ +1, reach]
+                - *Arcane-Arrester
+                - *Neoteny
+                - *Thermographic-Vision
 
